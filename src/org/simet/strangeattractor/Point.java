@@ -1,4 +1,4 @@
-
+package org.simet.strangeattractor;
 
 public class Point {
 
@@ -9,21 +9,22 @@ public class Point {
         this.x = x2;
         this.y = y2;
     }
-    
-    public double getX(){
+
+    public double getX() {
         return x;
     }
-    
-    public double getY(){
+
+    public double getY() {
         return y;
     }
-    
-    public void setPoint(double x,double y){
+
+    public void setPoint(double x, double y) {
         this.x = x;
         this.y = y;
     }
+
     @Override
     public String toString() {
-        return x+" "+y;
+        return x + " " + y;
     }
 }
